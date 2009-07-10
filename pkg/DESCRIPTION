@@ -1,0 +1,15 @@
+Package: piUtils
+Type: Package
+Title: Package Infrastructure Utilities
+Version: 0.0-1
+Date: 2009-02-19
+Author: Enrique Bengoechea <enrique.bengoechea@credit-suisse.com>
+Maintainer: Enrique Bengoechea <enrique.bengoechea@credit-suisse.com>
+Description: Tools providing miscellaneous infrastructure for 
+	package development: arguments validation, messages, etc.
+Depends: R (>= 2.8.1), methods
+Suggests: svUnit
+License: GPL-2
+LazyLoad: yes
+Collate: 'arg_validation.R' 'CallSpec.R' 'MatchSpec.R' 'messages.R'
+    'misc.R' 'objects.R' 'piUtils-package.R' 'valIndex.R'
